@@ -1,0 +1,9 @@
+/* Custom small tweaks */
+body {
+  scroll-behavior: smooth;
+}
+
+button:active {
+  transform: scale(0.95);
+  transition: transform 0.1s;
+}
